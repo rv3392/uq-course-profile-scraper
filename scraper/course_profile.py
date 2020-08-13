@@ -67,11 +67,13 @@ class Assessment:
         task (str): A short description of the assessment task
         due_date (str): The due date of the assessment
         weighting (int): Percentage weighting of the assessment
+        description (str): A long description of the assessment
     """
 
     task: str
     due_date: str
     weighting: int
+    description: str
 
 @dataclasses.dataclass
 class CourseProfile:
